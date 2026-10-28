@@ -7,3 +7,7 @@ target/
 dbt_packages/
 logs/
 *.duckdb
+
+# Iceberg data files
+warehouse/silver/orders/data/
+warehouse/silver/users/data/
